@@ -1,0 +1,9 @@
+[package]
+name = "the_vault"
+version = "0.0.0"
+
+[addresses]
+hello_blockchain = "0xa5684301aa27b9329db9ba025a6e4f302d8ef015790dda9f8ca2c013015eaaec"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }
